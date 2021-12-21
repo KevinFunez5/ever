@@ -37,3 +37,25 @@ nav ul li{
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid white;
 }
+
+.header-wrapper {
+  position: relative;
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1{
+  color: white;
+  text-transform: uppercase;
+  
+}
