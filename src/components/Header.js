@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header-wraper">
       <div className="main-info">
         <canvas></canvas>
-        <h1>SinceForever Flooring</h1>
+        <h1>Since Forever Floors</h1>
         <h3>Wilmington NC</h3>
         <Typed
           className="typed-text"
@@ -16,7 +16,7 @@ const Header = () => {
           backSpeed={60}
           loop
         />
-        <a href="#" className="btn-main-offer">Schedule Qoute</a>
+        <a href="#" className="btn-main-offer">Schedule Quote</a>
       </div>
     </div>
   )
