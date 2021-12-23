@@ -146,3 +146,45 @@ nav ul li {
 .laminate-h1{
   margin-top: 0.5em;
 }
+
+/************************ Contact *********************************/
+.contacts{
+  /* background: #666666; */
+  padding: 3rem;
+}
+
+.contacts h1{
+  text-transform: uppercase;
+  color: black;
+}
+
+.contacts p{
+  font-size: 1.2rem;
+}
+
+.contacts input, .contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-dark);
+  border-radius: 0;
+  color: black;
+  outline: black;
+  box-shadow: none;
+  padding-left: 0 !important;
+}
+
+.contacts input:focus, .contacts textarea:focus{
+  background: transparent;
+}
+
+.contacts textarea{
+  height: 12.4rem;
+}
+.contact-btn {
+  background: #ef4035 !important;
+  margin: 1rem 0 0 0;
+  width:100%;
+}
