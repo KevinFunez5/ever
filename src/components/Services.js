@@ -7,7 +7,11 @@ import Tile from "../tile.jpg";
 
 const Services = () => {
   return (
+    // <h1>Services</h1>
     <div className="container py-5">
+      <div className="text-center">
+        <h1>Services</h1>
+      </div>
       <div className="row">
         <div className="col-lg-6 col-xm-12">
           <img className="laminate" src={Hardwood} alt="Harwood"/>
